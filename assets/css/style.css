@@ -91,3 +91,18 @@ ul {
         transform: translateX(-30%) skew(10deg, 0);
     }
 }
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f6f6f6;
+    box-shadow: 0 0 10px #ddd inset;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0075ff;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0075ff;
+}
